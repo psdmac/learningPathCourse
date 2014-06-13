@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="tab-menu">
+        <ul class="tabs">
+            <li class="tab" ng-class="{ active: currentRoute=='/course' }"><a href="#!/course" class="tab-text">課程介紹</a></li>
+            <li class="tab" ng-class="{ active: currentRoute=='/speaker' }"><a href="#!/speaker" class="tab-text">講者介紹</a></li>
+            <li class="tab" ng-class="{ active: currentRoute=='/lesson' }"><a href="#!/lesson" class="tab-text">課程大綱</a></li>   
+        </ul>
+    </div>
+    <div class="content">
+        <div ui-view autoscroll="false"></div>
+    </div>
+</div>

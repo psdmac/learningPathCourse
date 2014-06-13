@@ -1,0 +1,84 @@
+.project-wrapper
+  +span-columns(12)
+  padding-top: 40%
+  background: #333
+  position: relative
+  border-radius: 0.5em
+  overflow: hidden
+  .project-bg
+    width: 100%
+    height: 100%
+    background-color: #ccc
+    background-image: url(../img/bg.jpg)
+    +background-size(cover)
+    background-position: center
+    position: absolute
+    top: 0
+    left: 0
+  .project-title
+    width: 100%
+    height: 50px
+    background: rgba(0,0,0,0.5)
+    position: absolute
+    bottom: 0
+    left: 0
+    color: #f1f1f1
+    line-height: 50px
+    padding-left: 0.5em
+.article
+  +span-columns(12)
+  p
+    line-height: 1.5em
+  li
+    margin: 0.5em 0
+
+.profile-wrapper
+  +span-columns(12)
+  overflow: hidden
+.profile-avatar-wrapper
+  +span-columns(12)
+  +at-breakpoint($small)
+    +span-columns(4)
+  +at-breakpoint($medium)
+    +span-columns(3)
+  position: relative
+  .profile-avatar
+    border-radius: 0.5em
+    width: 100%
+    padding-top: 100%
+    background: #ccc
+    background-image: url(../img/avatar.jpg)
+    +background-size(cover)
+.profile-info-wrapper, .contact-wrapper
+  +span-columns(12 omega)
+  +at-breakpoint($small)
+    +span-columns(8 omega)
+  +at-breakpoint($medium)
+    +span-columns(9 omega)
+  .fa
+    margin-right: 0.5em
+.profile-info
+  list-style: none
+  .name
+    font-size: 1.5em
+  li
+    margin: 0.5em 0
+  .company
+    color: #000
+    text-decoration: none
+    &:hover
+      text-decoration: underline
+.contact-wrapper
+  ul
+    list-style: none
+  li
+    +inline-block()
+    margin-right: 0.5em
+    &:last-child
+      margin-right: 0
+
+.intro-background-wrapper
+  +span-columns(12)
+  li
+    margin: 0.5em 0 
+  
