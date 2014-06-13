@@ -517,6 +517,7 @@ li.tab a {
   *vertical-align: auto;
   zoom: 1;
   *display: inline;
+  line-height: 1em;
   padding: 0.5em 1em;
   text-decoration: none;
   color: #2f705e;
@@ -528,7 +529,7 @@ li.tab a {
   }
 }
 
-/* line 89, ../sass/partials/_page.sass */
+/* line 90, ../sass/partials/_page.sass */
 .content {
   background: #f1f1f1;
   -webkit-box-shadow: 0px 1px 3px #cccccc;
@@ -542,7 +543,7 @@ li.tab a {
   margin-bottom: 80px;
 }
 
-/* line 98, ../sass/partials/_page.sass */
+/* line 99, ../sass/partials/_page.sass */
 #footer {
   position: absolute;
   bottom: 0;
@@ -554,12 +555,12 @@ li.tab a {
   box-sizing: border-box;
 }
 
-/* line 105, ../sass/partials/_page.sass */
+/* line 106, ../sass/partials/_page.sass */
 .fblink {
   margin: 0;
   text-align: center;
 }
-/* line 108, ../sass/partials/_page.sass */
+/* line 109, ../sass/partials/_page.sass */
 .fblink a {
   background-color: rgba(59, 89, 153, 0.6);
   -webkit-transition: background-color, 0.3s;
@@ -579,7 +580,7 @@ li.tab a {
   *display: inline;
   margin: 0.5em;
 }
-/* line 111, ../sass/partials/_page.sass */
+/* line 112, ../sass/partials/_page.sass */
 .fblink a:hover {
   background-color: rgba(59, 89, 153, 0.9);
 }
