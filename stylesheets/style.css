@@ -533,8 +533,14 @@ li.tab a {
   padding: 1em;
   margin-bottom: 120px;
 }
+@media (min-width: 30em) {
+  /* line 91, ../sass/partials/_page.sass */
+  .content {
+    margin-bottom: 80px;
+  }
+}
 
-/* line 100, ../sass/partials/_page.sass */
+/* line 101, ../sass/partials/_page.sass */
 #footer {
   position: absolute;
   bottom: 0;
@@ -546,12 +552,12 @@ li.tab a {
   box-sizing: border-box;
 }
 
-/* line 107, ../sass/partials/_page.sass */
+/* line 108, ../sass/partials/_page.sass */
 .fblink {
   margin: 0;
   text-align: center;
 }
-/* line 110, ../sass/partials/_page.sass */
+/* line 111, ../sass/partials/_page.sass */
 .fblink a {
   background-color: rgba(59, 89, 153, 0.6);
   -webkit-transition: background-color, 0.3s;
@@ -571,7 +577,7 @@ li.tab a {
   *display: inline;
   margin: 0.5em;
 }
-/* line 113, ../sass/partials/_page.sass */
+/* line 114, ../sass/partials/_page.sass */
 .fblink a:hover {
   background-color: rgba(59, 89, 153, 0.9);
 }
