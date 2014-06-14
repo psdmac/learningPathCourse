@@ -1,7 +1,7 @@
 myApp = angular.module 'myApp',['ui.router','ngSanitize','ngAnimate']
 
 myApp.config ['$locationProvider','$stateProvider', '$urlRouterProvider', ($locationProvider, $stateProvider, $urlRouterProvider) ->
-  $urlRouterProvider.otherwise "/course"
+  $urlRouterProvider.otherwise "/about"
   $locationProvider.html5Mode false
   $locationProvider.hashPrefix "!"
   $stateProvider
