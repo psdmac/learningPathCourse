@@ -1,4 +1,4 @@
-var myApp;
+var disableSubmit, myApp;
 
 myApp = angular.module('myApp', ['ui.router', 'ngSanitize', 'ngAnimate']);
 
@@ -8,9 +8,13 @@ myApp.config([
     $locationProvider.html5Mode(false);
     $locationProvider.hashPrefix("!");
     return $stateProvider.state('course', {
+      abstract: true,
       url: "/",
       templateUrl: "views/course.html",
       controller: "CourseCtrl"
+    }).state('course.about', {
+      url: 'about',
+      templateUrl: "views/course.about.html"
     }).state('course.intro', {
       url: 'course',
       templateUrl: "views/course.intro.html"
@@ -32,3 +36,8 @@ myApp.controller('CourseCtrl', [
     });
   }
 ]);
+
+disableSubmit = function() {
+  console.log('submit');
+  return $('#ss-submit').attr('disabled', 'disabled');
+};

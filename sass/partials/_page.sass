@@ -83,9 +83,13 @@ li.tab
   a
     +inline-block()
     line-height: 1em
+    span
+      display: none
     padding: 0.5em 1em
     +at-breakpoint($small)
       padding: 1em 1.5em
+      span
+        display: inline
     text-decoration: none
     color: darken($changee, 20%)
 .content

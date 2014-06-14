@@ -513,14 +513,22 @@ li.tab a {
   text-decoration: none;
   color: #2f705e;
 }
+/* line 86, ../sass/partials/_page.sass */
+li.tab a span {
+  display: none;
+}
 @media (min-width: 30em) {
   /* line 83, ../sass/partials/_page.sass */
   li.tab a {
     padding: 1em 1.5em;
   }
+  /* line 91, ../sass/partials/_page.sass */
+  li.tab a span {
+    display: inline;
+  }
 }
 
-/* line 91, ../sass/partials/_page.sass */
+/* line 95, ../sass/partials/_page.sass */
 .content {
   background: #f1f1f1;
   -webkit-box-shadow: 0px 1px 3px #cccccc;
@@ -534,13 +542,13 @@ li.tab a {
   margin-bottom: 120px;
 }
 @media (min-width: 30em) {
-  /* line 91, ../sass/partials/_page.sass */
+  /* line 95, ../sass/partials/_page.sass */
   .content {
     margin-bottom: 80px;
   }
 }
 
-/* line 101, ../sass/partials/_page.sass */
+/* line 105, ../sass/partials/_page.sass */
 #footer {
   position: absolute;
   bottom: 0;
@@ -552,12 +560,12 @@ li.tab a {
   box-sizing: border-box;
 }
 
-/* line 108, ../sass/partials/_page.sass */
+/* line 112, ../sass/partials/_page.sass */
 .fblink {
   margin: 0;
   text-align: center;
 }
-/* line 111, ../sass/partials/_page.sass */
+/* line 115, ../sass/partials/_page.sass */
 .fblink a {
   background-color: rgba(59, 89, 153, 0.6);
   -webkit-transition: background-color, 0.3s;
@@ -577,7 +585,7 @@ li.tab a {
   *display: inline;
   margin: 0.5em;
 }
-/* line 114, ../sass/partials/_page.sass */
+/* line 118, ../sass/partials/_page.sass */
 .fblink a:hover {
   background-color: rgba(59, 89, 153, 0.9);
 }
@@ -906,4 +914,109 @@ li.tab a {
 /* line 82, ../sass/partials/_course.sass */
 .intro-background-wrapper li {
   margin: 0.5em 0;
+}
+
+/* line 85, ../sass/partials/_course.sass */
+.form-wrapper {
+  width: 100%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+
+/* line 88, ../sass/partials/_course.sass */
+.ss-form {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 1em;
+  background: rgba(255, 255, 255, 0.8);
+}
+@media (min-width: 30em) {
+  /* line 88, ../sass/partials/_course.sass */
+  .ss-form {
+    width: 400px;
+    margin: 0 auto;
+  }
+}
+/* line 96, ../sass/partials/_course.sass */
+.ss-form .ss-q-title {
+  margin-top: 1em;
+}
+/* line 98, ../sass/partials/_course.sass */
+.ss-form .ss-q-help {
+  margin-top: 0.5em;
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+/* line 102, ../sass/partials/_course.sass */
+.ss-form .ss-choice-item {
+  list-style: none;
+  margin-top: 3px;
+}
+/* line 105, ../sass/partials/_course.sass */
+.ss-form .ss-item.ss-navigate {
+  width: 200px;
+  margin: 0 auto;
+}
+/* line 108, ../sass/partials/_course.sass */
+.ss-form .ss-question-list {
+  margin: 0;
+}
+
+/* line 110, ../sass/partials/_course.sass */
+#entry_1860243683 {
+  width: 100%;
+}
+
+/* line 112, ../sass/partials/_course.sass */
+#entry_511581303_other_option_response {
+  width: 100px;
+}
+
+/* line 114, ../sass/partials/_course.sass */
+#ss-submit {
+  font-size: 1.5em;
+  width: 200px;
+  height: 40px;
+  background: #50b599;
+  border: 0;
+  border-radius: 3px;
+  color: #f1f1f1;
+  -webkit-box-shadow: inset 0px -5px 0px #3e947c;
+  -moz-box-shadow: inset 0px -5px 0px #3e947c;
+  box-shadow: inset 0px -5px 0px #3e947c;
+}
+/* line 123, ../sass/partials/_course.sass */
+#ss-submit:hover {
+  -webkit-transform: translateY(2px);
+  -moz-transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  -o-transform: translateY(2px);
+  transform: translateY(2px);
+  -webkit-box-shadow: inset 0px -3px 0px #3e947c;
+  -moz-box-shadow: inset 0px -3px 0px #3e947c;
+  box-shadow: inset 0px -3px 0px #3e947c;
+}
+/* line 126, ../sass/partials/_course.sass */
+#ss-submit:disabled {
+  background: #999999;
+  border: 0;
+  border-radius: 3px;
+  color: #f1f1f1;
+  -webkit-box-shadow: inset 0px -5px 0px gray;
+  -moz-box-shadow: inset 0px -5px 0px gray;
+  box-shadow: inset 0px -5px 0px gray;
+}
+/* line 132, ../sass/partials/_course.sass */
+#ss-submit:disabled:hover {
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-box-shadow: inset 0px -5px 0px gray;
+  -moz-box-shadow: inset 0px -5px 0px gray;
+  box-shadow: inset 0px -5px 0px gray;
 }

@@ -6,9 +6,13 @@ myApp.config ['$locationProvider','$stateProvider', '$urlRouterProvider', ($loca
   $locationProvider.hashPrefix "!"
   $stateProvider
     .state 'course',
+      abstract: true
       url: "/"
       templateUrl: "views/course.html"
       controller: "CourseCtrl"
+    .state 'course.about',
+      url: 'about'
+      templateUrl: "views/course.about.html"
     .state 'course.intro',
       url: 'course'
       templateUrl: "views/course.intro.html"
@@ -26,3 +30,7 @@ myApp.controller 'CourseCtrl',['$scope','$location', ($scope, $location) ->
   $scope.$on '$locationChangeSuccess', ->
     $scope.currentRoute = $location.path()
 ]
+
+disableSubmit = ->
+  console.log('submit')
+  $('#ss-submit').attr('disabled', 'disabled')
