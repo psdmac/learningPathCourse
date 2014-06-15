@@ -794,10 +794,9 @@ li.tab a span {
   float: left;
   margin-right: 1.69492%;
   display: inline;
-  overflow: hidden;
 }
 
-/* line 38, ../sass/partials/_course.sass */
+/* line 37, ../sass/partials/_course.sass */
 .profile-avatar-wrapper {
   width: 100%;
   float: left;
@@ -806,7 +805,7 @@ li.tab a span {
   position: relative;
 }
 @media (min-width: 30em) {
-  /* line 38, ../sass/partials/_course.sass */
+  /* line 37, ../sass/partials/_course.sass */
   .profile-avatar-wrapper {
     width: 32.20339%;
     float: left;
@@ -814,14 +813,14 @@ li.tab a span {
   }
 }
 @media (min-width: 48em) {
-  /* line 38, ../sass/partials/_course.sass */
+  /* line 37, ../sass/partials/_course.sass */
   .profile-avatar-wrapper {
     width: 23.72881%;
     float: left;
     margin-right: 1.69492%;
   }
 }
-/* line 45, ../sass/partials/_course.sass */
+/* line 44, ../sass/partials/_course.sass */
 .profile-avatar-wrapper .profile-avatar {
   border-radius: 0.5em;
   width: 100%;
@@ -834,7 +833,7 @@ li.tab a span {
   background-size: cover;
 }
 
-/* line 52, ../sass/partials/_course.sass */
+/* line 51, ../sass/partials/_course.sass */
 .profile-info-wrapper, .contact-wrapper {
   width: 100%;
   float: right;
@@ -843,7 +842,7 @@ li.tab a span {
   display: inline;
 }
 @media (min-width: 30em) {
-  /* line 52, ../sass/partials/_course.sass */
+  /* line 51, ../sass/partials/_course.sass */
   .profile-info-wrapper, .contact-wrapper {
     width: 66.10169%;
     float: right;
@@ -851,45 +850,45 @@ li.tab a span {
   }
 }
 @media (min-width: 48em) {
-  /* line 52, ../sass/partials/_course.sass */
+  /* line 51, ../sass/partials/_course.sass */
   .profile-info-wrapper, .contact-wrapper {
     width: 74.57627%;
     float: right;
     margin-right: 0;
   }
 }
-/* line 58, ../sass/partials/_course.sass */
+/* line 57, ../sass/partials/_course.sass */
 .profile-info-wrapper .fa, .contact-wrapper .fa {
   margin-right: 0.5em;
 }
 
-/* line 60, ../sass/partials/_course.sass */
+/* line 59, ../sass/partials/_course.sass */
 .profile-info {
   list-style: none;
 }
-/* line 62, ../sass/partials/_course.sass */
+/* line 61, ../sass/partials/_course.sass */
 .profile-info .name {
   font-size: 1.5em;
 }
-/* line 64, ../sass/partials/_course.sass */
+/* line 63, ../sass/partials/_course.sass */
 .profile-info li {
   margin: 0.5em 0;
 }
-/* line 66, ../sass/partials/_course.sass */
+/* line 65, ../sass/partials/_course.sass */
 .profile-info .company {
   color: black;
   text-decoration: none;
 }
-/* line 69, ../sass/partials/_course.sass */
+/* line 68, ../sass/partials/_course.sass */
 .profile-info .company:hover {
   text-decoration: underline;
 }
 
-/* line 72, ../sass/partials/_course.sass */
+/* line 71, ../sass/partials/_course.sass */
 .contact-wrapper ul {
   list-style: none;
 }
-/* line 74, ../sass/partials/_course.sass */
+/* line 73, ../sass/partials/_course.sass */
 .contact-wrapper li {
   display: -moz-inline-stack;
   display: inline-block;
@@ -899,24 +898,24 @@ li.tab a span {
   *display: inline;
   margin-right: 0.5em;
 }
-/* line 77, ../sass/partials/_course.sass */
+/* line 76, ../sass/partials/_course.sass */
 .contact-wrapper li:last-child {
   margin-right: 0;
 }
 
-/* line 80, ../sass/partials/_course.sass */
+/* line 79, ../sass/partials/_course.sass */
 .intro-background-wrapper {
   width: 100%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 82, ../sass/partials/_course.sass */
+/* line 81, ../sass/partials/_course.sass */
 .intro-background-wrapper li {
   margin: 0.5em 0;
 }
 
-/* line 85, ../sass/partials/_course.sass */
+/* line 84, ../sass/partials/_course.sass */
 .form-wrapper {
   width: 100%;
   float: left;
@@ -924,7 +923,7 @@ li.tab a span {
   display: inline;
 }
 
-/* line 88, ../sass/partials/_course.sass */
+/* line 87, ../sass/partials/_course.sass */
 .ss-form {
   width: 100%;
   -webkit-box-sizing: border-box;
@@ -934,48 +933,48 @@ li.tab a span {
   background: rgba(255, 255, 255, 0.8);
 }
 @media (min-width: 30em) {
-  /* line 88, ../sass/partials/_course.sass */
+  /* line 87, ../sass/partials/_course.sass */
   .ss-form {
     width: 400px;
     margin: 0 auto;
   }
 }
-/* line 96, ../sass/partials/_course.sass */
+/* line 95, ../sass/partials/_course.sass */
 .ss-form .ss-q-title {
   margin-top: 1em;
 }
-/* line 98, ../sass/partials/_course.sass */
+/* line 97, ../sass/partials/_course.sass */
 .ss-form .ss-q-help {
   margin-top: 0.5em;
   margin-bottom: 3px;
   font-size: 14px;
 }
-/* line 102, ../sass/partials/_course.sass */
+/* line 101, ../sass/partials/_course.sass */
 .ss-form .ss-choice-item {
   list-style: none;
   margin-top: 3px;
 }
-/* line 105, ../sass/partials/_course.sass */
+/* line 104, ../sass/partials/_course.sass */
 .ss-form .ss-item.ss-navigate {
   width: 200px;
   margin: 0 auto;
 }
-/* line 108, ../sass/partials/_course.sass */
+/* line 107, ../sass/partials/_course.sass */
 .ss-form .ss-question-list {
   margin: 0;
 }
 
-/* line 110, ../sass/partials/_course.sass */
+/* line 109, ../sass/partials/_course.sass */
 #entry_1860243683 {
   width: 100%;
 }
 
-/* line 112, ../sass/partials/_course.sass */
+/* line 111, ../sass/partials/_course.sass */
 #entry_511581303_other_option_response {
   width: 100px;
 }
 
-/* line 114, ../sass/partials/_course.sass */
+/* line 113, ../sass/partials/_course.sass */
 #ss-submit {
   font-size: 1.5em;
   width: 200px;
@@ -988,7 +987,7 @@ li.tab a span {
   -moz-box-shadow: inset 0px -5px 0px #3e947c;
   box-shadow: inset 0px -5px 0px #3e947c;
 }
-/* line 123, ../sass/partials/_course.sass */
+/* line 122, ../sass/partials/_course.sass */
 #ss-submit:hover {
   -webkit-transform: translateY(2px);
   -moz-transform: translateY(2px);
@@ -999,7 +998,7 @@ li.tab a span {
   -moz-box-shadow: inset 0px -3px 0px #3e947c;
   box-shadow: inset 0px -3px 0px #3e947c;
 }
-/* line 126, ../sass/partials/_course.sass */
+/* line 125, ../sass/partials/_course.sass */
 #ss-submit:disabled {
   background: #999999;
   border: 0;
@@ -1009,7 +1008,7 @@ li.tab a span {
   -moz-box-shadow: inset 0px -5px 0px gray;
   box-shadow: inset 0px -5px 0px gray;
 }
-/* line 132, ../sass/partials/_course.sass */
+/* line 131, ../sass/partials/_course.sass */
 #ss-submit:disabled:hover {
   -webkit-transform: translateY(0px);
   -moz-transform: translateY(0px);
