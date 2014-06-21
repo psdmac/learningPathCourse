@@ -16,23 +16,25 @@
     top: 0
     left: 0
 
+.changee-intro-wrapper
+  +span-columns(12)
 .changee-wrapper
   +span-columns(12)
-  padding-top: 66.3%
+  +at-breakpoint($small)
+    +span-columns(6)
+  +at-breakpoint($medium)
+    +span-columns(3)
   background: #333
   position: relative
   border-radius: 0.5em
   overflow: hidden
   .changee-bg
     width: 100%
-    height: 100%
+    padding-top: 100%
     background-color: #ccc
-    background-image: url(../img/changee_bg.jpg)
+    background-image: url(../img/changee_logo.jpg)
     +background-size(cover)
     background-position: center
-    position: absolute
-    top: 0
-    left: 0
 
 .article
   +span-columns(12)
@@ -42,6 +44,12 @@
     margin: 0.5em 0
   a
     color: $changee
+  &.changee
+    +span-columns(12)
+    +at-breakpoint($small)
+      +span-columns(6 omega)
+    +at-breakpoint($medium)
+      +span-columns(9 omega)
 
 .important
   color: $important
