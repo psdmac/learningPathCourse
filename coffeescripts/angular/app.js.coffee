@@ -35,5 +35,5 @@ myApp.controller 'CourseCtrl',['$scope','$location', ($scope, $location) ->
 ]
 
 disableSubmit = ->
-  console.log('submit')
+  # console.log('submit')
   $('#ss-submit').attr('disabled', 'disabled')

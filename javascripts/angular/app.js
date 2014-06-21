@@ -41,6 +41,5 @@ myApp.controller('CourseCtrl', [
 ]);
 
 disableSubmit = function() {
-  console.log('submit');
   return $('#ss-submit').attr('disabled', 'disabled');
 };
