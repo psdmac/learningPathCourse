@@ -1,36 +1,50 @@
-.project-wrapper
+.platform-wrapper
   +span-columns(12)
-  padding-top: 40%
+  padding-top: 30%
   background: #333
   position: relative
-  border-radius: 0.5em
+  // border-radius: 0.5em
   overflow: hidden
-  .project-bg
+  .platform-bg
     width: 100%
     height: 100%
     background-color: #ccc
-    background-image: url(../img/bg.jpg)
+    background-image: url(../img/changee_learningpath.jpg)
     +background-size(cover)
     background-position: center
     position: absolute
     top: 0
     left: 0
-  .project-title
+
+.changee-wrapper
+  +span-columns(12)
+  padding-top: 66.3%
+  background: #333
+  position: relative
+  border-radius: 0.5em
+  overflow: hidden
+  .changee-bg
     width: 100%
-    height: 50px
-    background: rgba(0,0,0,0.5)
+    height: 100%
+    background-color: #ccc
+    background-image: url(../img/changee_bg.jpg)
+    +background-size(cover)
+    background-position: center
     position: absolute
-    bottom: 0
+    top: 0
     left: 0
-    color: #f1f1f1
-    line-height: 50px
-    padding-left: 0.5em
+
 .article
   +span-columns(12)
   p
     line-height: 1.5em
   li
     margin: 0.5em 0
+  a
+    color: $changee
+
+.important
+  color: $important
 
 .profile-wrapper
   +span-columns(12)
@@ -87,7 +101,7 @@
 .ss-form
   width: 100%
   +at-breakpoint($small)
-    width: 400px
+    max-width: 600px
     margin: 0 auto
   +box-sizing(border-box)
   padding: 1em
@@ -131,3 +145,9 @@
     &:hover
       +translateY(0px)
       +box-shadow(inset 0px -5px 0px darken(#999, 10%))
+
+#accupass_frame
+  height: 300px
+.accupass-link
+  color: $changee
+  font-size: 1.5em

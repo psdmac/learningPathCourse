@@ -4,7 +4,7 @@ myApp = angular.module('myApp', ['ui.router', 'ngSanitize', 'ngAnimate']);
 
 myApp.config([
   '$locationProvider', '$stateProvider', '$urlRouterProvider', function($locationProvider, $stateProvider, $urlRouterProvider) {
-    $urlRouterProvider.otherwise("/about");
+    $urlRouterProvider.otherwise("/platform");
     $locationProvider.html5Mode(false);
     $locationProvider.hashPrefix("!");
     return $stateProvider.state('course', {
@@ -12,6 +12,9 @@ myApp.config([
       url: "/",
       templateUrl: "views/course.html",
       controller: "CourseCtrl"
+    }).state('course.platform', {
+      url: 'platform',
+      templateUrl: 'views/course.platform.html'
     }).state('course.about', {
       url: 'about',
       templateUrl: "views/course.about.html"
