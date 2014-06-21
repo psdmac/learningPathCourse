@@ -108,6 +108,7 @@
   background: rgba(255,255,255,0.8)
   .ss-q-title
     margin-top: 1em
+    color: $important
   .ss-q-help
     margin-top: 0.5em
     margin-bottom: 3px
@@ -120,11 +121,22 @@
     margin: 0 auto
   .ss-question-list
     margin: 0
-#entry_1860243683
+
+.ss-info-wrapper
+  +box-sizing(border-box)
+  padding-left: 1em
+  input
+    +box-sizing(border-box)
+    padding: 5px
+    width: 100%
+textarea
+  +box-sizing(border-box)
+  resize: none
   width: 100%
 #entry_511581303_other_option_response
   width: 100px
 #ss-submit
+  margin-top: 20px
   font-size: 1.5em
   width: 200px
   height: 40px
